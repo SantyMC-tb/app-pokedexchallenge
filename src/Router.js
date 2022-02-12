@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import ListaPokemons from "./componentes/ListaPokemons";
-import Pokemon from "./componentes/Pokemon";
+import PokemonInfoContainer from "./Containers/PokemonInfoContainer";
+import PokemonsListContainer from "./Containers/PokemonsListContainer";
 
 const RouterComponent = () => {
 
@@ -9,8 +9,8 @@ const RouterComponent = () => {
         <BrowserRouter>
             <div>
                 <Switch>
-                    <Route path='/' exact component={ListaPokemons}/>
-                    <Route path='/:id' component={Pokemon}/>
+                    <Route exact path='/' component={PokemonsListContainer}/>
+                    <Route exact path='/poke-info/:pokeIndex/:pokeName' component={PokemonInfoContainer}/>
                 </Switch>
             </div>
         </BrowserRouter>

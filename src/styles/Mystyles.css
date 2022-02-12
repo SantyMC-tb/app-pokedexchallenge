@@ -1,0 +1,274 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color:aliceblue
+}
+
+.body-html, .FondoHead{
+    background-color:aliceblue;
+}
+
+
+
+.navColor{
+    background-color: #EF5350;
+}
+
+
+.item{
+    width: 250px;
+    height: 280px;
+    margin-left: 10px;
+    text-align: center;
+    padding: 1.5em;
+    margin-top:calc(120px - 70px);
+    background-color: #EF5350;
+}
+
+.namePokemon{
+    margin-top: -30px;
+}
+
+.media{
+    height: 200px;
+    width: 200px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* General (description) */
+
+.centerContainer{
+    margin-top: 20px;
+    width: 100% !important;
+}
+
+/* Fin General (description) */
+
+/* Description */
+.part1-descripcion{
+    margin-left: 10px;
+    height: 160px;
+    width: 800px;
+    text-align: center;
+    padding: 1.5em;
+    margin-top: 20px;
+    background-color: #EF5350;
+    size: auto;
+}
+
+.descriptionContainer{
+    margin-left: 0px;
+    margin-top: 0px;
+    size: auto;
+}
+
+.descriptionBox{
+    font-size: 14px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    size: auto;
+}
+/* fin Description */
+
+/* Caracteristicas */
+.part2-caracteristicas{
+    margin-left: 10px;
+    height: 250px;
+    width: 700px;
+    text-align: center;
+    padding: 1.5em;
+    margin-top: 15px;
+    background-color: #EF5350;
+    size: auto;
+}
+
+.statsContainer{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+
+.descriptionBox2{
+    margin-top: -30px;
+    font-size: 14px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Fin Caracteristicas */
+
+.containerSup{
+    justify-content: center;
+}
+
+/* Paginacion */
+
+.btn-previous{
+    margin-top: 50px;
+}
+
+.btn-next{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+
+@media screen and (max-width: 1199px) {
+
+    .item{
+        width: 220px;
+        height: 250px;
+    }
+
+    .media{
+        height: 170px;
+        width: 170px;
+    }
+
+    .part1-descripcion{
+        height: 250px;
+        width: 700px;
+        margin-top: 50px;
+    }
+
+    .descriptionContainer{
+        height: 200px;
+        width: 650px;
+    }
+
+    .part2-caracteristicas{
+        margin-left: -220px;
+        width: 930px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .poke-card{
+        margin-left: -45px;
+    }
+
+    .body-html, .FondoHead{
+        background-color:aliceblue
+    }
+
+    .item{
+        height: 210px;
+        width: 190px;
+        margin-left: 4px;
+    }
+
+    .media{
+        height: 130px;
+        margin: 0px;
+    }
+
+    .part1-descripcion{
+        margin-left: 5px;
+        height: 245px;
+        width: 540px;
+        text-align: center;
+        padding: 1.5em;
+        margin-top: 50px;
+        background-color: #EF5350;
+        size: auto;
+    }
+
+    .descriptionContainer{
+        margin-left: 0px;
+        margin-top: 0px;
+        size: auto;
+        height: 200px;
+        width: 495px;
+    }
+
+    .descriptionBox{
+        font-size: 14px;
+        text-align: justify;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        size: auto;
+    }
+
+    .part2-caracteristicas{
+        margin-left: -220px;
+        height: 250px;
+        width: 765px;
+        text-align: center;
+        padding: 1.5em;
+        margin-top: 10px;
+        background-color: #EF5350;
+        size: auto;
+    }
+
+    .btn-previous{
+        margin-top: 70px;
+    }
+
+    .btn-next{
+        margin-top: 70px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .poke-card{
+        margin-left: 70px;
+    }
+
+    .body-html, .FondoHead{
+        background-color:aliceblue
+    }
+
+    .item{
+        height: 320px;
+        width: 50px;
+        margin-left: 20px;
+    }
+    /* Card blanca */
+    .poke-dispCard{
+        margin-top: -15px;
+        margin-left: -15px;
+        height: 300px;
+        width: 30px;
+    }
+
+    .media{
+        height: 90px;
+        width: 60px;
+    }
+
+    .part1-descripcion{
+        margin-left: -389px;
+        height: 245px;
+        width: 574px;
+        margin-top: 295px;
+        size: auto;
+    }
+
+    .descriptionContainer{
+        height: 200px;
+        width: 526px;
+    }
+
+    .part2-caracteristicas{
+        margin-left: -389px;
+        height: 250px;
+        width: 574px;
+        margin-top: 10px;
+    }
+
+    .btn-previous{
+        margin-top: 70px;
+    }
+
+    .btn-next{
+        margin-top: 70px;
+    }
+
+}
